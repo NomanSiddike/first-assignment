@@ -1,13 +1,27 @@
 @import url("https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap");
 
-body {
+body, button {
   font-family: "Azeret Mono", monospace;
+  
 }
 
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+
+.section-title {
+  color: rgb(13, 19, 33);
+  font-size: 25px;
+  font-weight: 800;
+}
+
+.section-description {
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 400;
+  opacity: 0.7;
 }
 
 /* Nav Styles Starts */
@@ -40,7 +54,9 @@ body {
 
 /* Banner Styles Starts */
 .banner-container {
-  max-width: 1440px;
+  max-width: 1600px;
+  /* margin: 0 auto; */
+  /* width: 100%; */
   height: 650px;
   background-image: url("../assets/Hero-bg.png");
   background-repeat: no-repeat;
@@ -80,6 +96,7 @@ body {
   font-size: 16px;
   font-weight: 400;
   text-align: center;
+  opacity: 0.8;
 }
 
 .banner-btn {
@@ -93,3 +110,45 @@ body {
 }
 
 /* Banner Styles Ends */
+
+/* Why Web Development Styles Starts */
+.web-dev-container {
+  max-width: 1300px;
+  margin: 70px auto;
+  border-radius: 16px;
+  background: rgba(13, 19, 33, 0.02);
+  /* border: 2px solid red; */
+}
+
+.web-dev-content {
+  max-width: 1300px;
+  margin: 80px 100px;
+  /* border: 2px solid green; */
+  text-align: center;
+}
+
+.web-dev-section {
+  max-width: 1300px;
+  margin: 80px 100px;
+  /* border: 2px solid blue; */
+  display: flex;
+}
+
+.btn {
+  color: rgb(13, 19, 33);
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23px;
+  text-align: center;
+  border: none;
+  border: 1px solid rgb(13, 19, 33);
+  opacity: 0.7;
+  padding: 12px 20px 12px 20px;
+}
+
+.web-dev-section .btn a {
+  text-decoration: none;
+  color: rgb(13, 19, 33);
+}
+
+/* Why Web Development Styles Ends */
