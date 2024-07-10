@@ -238,3 +238,71 @@ button {
 }
 
 /* My Current Target Styles Ends */
+
+/* Support Styles Starts */
+.support-container {
+  max-width: 1300px;
+  margin: 0 auto;
+  border: 2px solid green;
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.2)
+    ),
+    url("../assets/handshake.jpg");
+  border-radius: 16px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.support-content {
+  max-width: 1100px;
+  height: 300px;
+  margin: 0 auto;
+  border: 2px solid blue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.support-title {
+  color: rgb(255, 255, 255);
+  font-size: 26px;
+  font-weight: 700;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.support-description {
+  margin: 20px 200px 40px 200px;
+  text-align: center;
+  opacity: 0.7;
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-weight: 400;
+}
+.support-container .text {
+  width: 450px;
+  height: 40px;
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  border-radius: 8px;
+  background: rgb(255, 255, 255);
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  border-radius: 8px;
+  background: rgb(255, 255, 255);
+  padding: 5px 0 5px 15px;
+}
+.support-container .submit {
+  width: 90px;
+  height: 40px;
+  border-radius: 8px;
+  background: rgb(255, 255, 255);
+  color: rgb(13, 19, 33);
+  font-size: 15px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+/* Support Styles Ends */
