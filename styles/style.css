@@ -1,5 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap");
 
+html{
+  scroll-behavior: smooth;
+}
 body,
 button {
   font-family: "Azeret Mono", monospace;
@@ -193,6 +196,7 @@ button {
   display: flex;
   justify-content: space-between;
   gap: 24px;
+  margin-bottom: 100px;
 }
 
 .card-title {
@@ -243,7 +247,7 @@ button {
 .support-container {
   max-width: 1300px;
   margin: 0 auto;
-  border: 2px solid green;
+  /* border: 2px solid green; */
   background-image: linear-gradient(
       rgba(0, 0, 0, 0.2),
       rgba(0, 0, 0, 0.2),
@@ -260,7 +264,7 @@ button {
   max-width: 1100px;
   height: 300px;
   margin: 0 auto;
-  border: 2px solid blue;
+  /* border: 2px solid blue; */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -293,6 +297,7 @@ button {
   border-radius: 8px;
   background: rgb(255, 255, 255);
   padding: 5px 0 5px 15px;
+  font-family: "Azeret Mono", monospace;
 }
 .support-container .submit {
   width: 90px;
@@ -303,6 +308,24 @@ button {
   font-size: 15px;
   cursor: pointer;
   font-weight: 600;
+  font-family: "Azeret Mono", monospace;
 }
 
 /* Support Styles Ends */
+
+/* Footer Styles Starts */
+.footer-container {
+  max-width: 1300px;
+  margin: 100px auto 50px auto;
+  /* margin-top: 100px; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-title {
+  font-weight: 600;
+  font-size: 20px;
+  color: rgb(13, 19, 33)
+}
+/* Footer Styles Ends */
